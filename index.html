@@ -1336,9 +1336,9 @@
             let finalAward = "Fail";
             let awardTheme = "fail-theme";
 
-            if (percentage >= 85) { finalAward = "Distinction"; awardTheme = "pass-theme"; }
+            if (percentage >= 90) { finalAward = "Distinction"; awardTheme = "pass-theme"; }
             else if (percentage >= 70) { finalAward = "Merit"; awardTheme = "pass-theme"; }
-            else if (percentage >= 50) { finalAward = "Pass"; awardTheme = "pass-theme"; }
+            else if (percentage >= 60) { finalAward = "Pass"; awardTheme = "pass-theme"; }
 
             document.getElementById('dashboard').style.display = 'block';
             let badge = document.getElementById('grade-badge');
